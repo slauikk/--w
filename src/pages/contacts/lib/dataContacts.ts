@@ -4,26 +4,27 @@ import Img_1 from "@/assets/contacts/Марціяш.jpg";
 import Img_2 from "@/assets/contacts/Радчик.jpg";
 import Img_3 from "@/assets/contacts/Слободян.jpg";
 import Img_4 from "@/assets/contacts/Цимбалюк.jpg";
+import fake from "@/assets/avatar.jpg";
 
 export const dataContacts: IContact[] = [
   {
     name: "Дранівська Марія Богданівна",
-    img: Img_1,
+    img: fake,
   },
   {
     name: "Залуцька Наталія Василівна",
-    img: Img_2,
+    img: fake,
   },
   {
     name: "Гуменюк Ігор Всеволодович",
-    img: Img_3,
+    img: fake,
   },
   {
     name: "Гаврилюк Володимир Ярославович",
-    img: Img_4,
+    img: fake,
   },
   {
     name: "Гавришко Володимир Іванович",
-    img: Img_1,
+    img: fake,
   },
 ];

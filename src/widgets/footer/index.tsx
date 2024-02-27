@@ -15,20 +15,9 @@ export const Footer: FC<IFooter> = () => {
     <div className={clsx(styles.footer)}>
       <div className={clsx(styles.footer_container)}>
         <div className={clsx(styles.footer_header)}>
-          <div
-            className={clsx(
-              styles.footer_header_info,
-              styles.footer_header_block
-            )}
-          >
+          <div className={clsx(styles.footer_header_info, styles.footer_header_block)}>
             <div className={clsx(styles.footer_header_info_header)}>
-              <svg
-                className={clsx(styles.footer_header_info_header_logo)}
-                width="61"
-                viewBox="0 0 61 36"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+              <svg className={clsx(styles.footer_header_info_header_logo)} width="61" viewBox="0 0 61 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_89_1626)">
                   <path
                     d="M32.6271 0H0.413278C0.185031 0 0 0.172984 0 0.38637V5.80641C0 6.01982 0.185031 6.19279 0.413278 6.19279H32.6271C32.8554 6.19279 33.0404 6.01982 33.0404 5.80641V0.38637C33.0404 0.172984 32.8554 0 32.6271 0Z"
@@ -58,58 +47,29 @@ export const Footer: FC<IFooter> = () => {
                 </defs>
               </svg>
               <div className={clsx(styles.footer_header_info_header_title)}>
-                Відокремлений структурний підрозділ «Тернопільський фаховий
-                коледж Тернопільського національного технічного університету
-                імені Івана Пулюя»
+                Відокремлений структурний підрозділ «Тернопільський фаховий коледж Тернопільського національного технічного університету імені Івана Пулюя»
               </div>
             </div>
-            <div className={clsx(styles.footer_header_info_item)}>
-              Циклова комісія зварювальних технологій
-            </div>
+            <div className={clsx(styles.footer_header_info_item)}>Циклова комісія зварювальних технологій</div>
           </div>
-          <div
-            className={clsx(
-              styles.footer_header_contacts,
-              styles.footer_header_block
-            )}
-          >
+          <div className={clsx(styles.footer_header_contacts, styles.footer_header_block)}>
             <div className={clsx(styles.footer_header_contacts_item)}>
               <div className={clsx(styles.footer_header_contacts_item_inner)}>
-                <img
-                  src={IconMap}
-                  alt=""
-                  className={clsx(styles.footer_header_contacts_item_icon)}
-                />
-                <div className={clsx(styles.footer_header_contacts_item_title)}>
-                  м. Тернопіль, вул. Л. Курбаса, 13, ауд. №102.
-                </div>
+                <img src={IconMap} alt="" className={clsx(styles.footer_header_contacts_item_icon)} />
+                <div className={clsx(styles.footer_header_contacts_item_title)}>м. Тернопіль, вул. Л. Курбаса, 13, ауд. 210в.</div>
               </div>
             </div>
             <div className={clsx(styles.footer_header_contacts_item)}>
               <div className={clsx(styles.footer_header_contacts_item_inner)}>
-                <img
-                  src={IconPhone}
-                  alt=""
-                  className={clsx(styles.footer_header_contacts_item_icon)}
-                />
-                <div className={clsx(styles.footer_header_contacts_item_title)}>
-                  +38 (0352) 28-18-11
-                </div>
+                <img src={IconPhone} alt="" className={clsx(styles.footer_header_contacts_item_icon)} />
+                <div className={clsx(styles.footer_header_contacts_item_title)}>28-19-36</div>
               </div>
             </div>
             <div className={clsx(styles.footer_header_contacts_item)}>
               <div className={clsx(styles.footer_header_contacts_item_inner)}>
-                <img
-                  src={IconInternet}
-                  alt=""
-                  className={clsx(styles.footer_header_contacts_item_icon)}
-                />
+                <img src={IconInternet} alt="" className={clsx(styles.footer_header_contacts_item_icon)} />
                 <div className={clsx(styles.footer_header_contacts_item_title)}>
-                  <a
-                    href="http://www.tk.te.ua"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                  <a href="http://www.tk.te.ua" target="_blank" rel="noopener noreferrer">
                     http://www.tk.te.ua
                   </a>
                 </div>
@@ -117,21 +77,13 @@ export const Footer: FC<IFooter> = () => {
             </div>
             <div className={clsx(styles.footer_header_contacts_item)}>
               <div className={clsx(styles.footer_header_contacts_item_inner)}>
-                <img
-                  src={IconEmail}
-                  alt=""
-                  className={clsx(styles.footer_header_contacts_item_icon)}
-                />
-                <div className={clsx(styles.footer_header_contacts_item_title)}>
-                  cs@tk.te.ua
-                </div>
+                <img src={IconEmail} alt="" className={clsx(styles.footer_header_contacts_item_icon)} />
+                <div className={clsx(styles.footer_header_contacts_item_title)}>zv.vsptfk@gmail.com</div>
               </div>
             </div>
           </div>
         </div>
-        <div className={clsx(styles.footer_banner)}>
-          © {currentYear} ВСП "ТФК ТНТУ". Всі права захищено.
-        </div>
+        <div className={clsx(styles.footer_banner)}>© {currentYear} ВСП "ТФК ТНТУ". Всі права захищено.</div>
       </div>
     </div>
   );
