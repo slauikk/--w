@@ -62,7 +62,7 @@ export const Footer: FC<IFooter> = () => {
             <div className={clsx(styles.footer_header_contacts_item)}>
               <div className={clsx(styles.footer_header_contacts_item_inner)}>
                 <img src={IconPhone} alt="" className={clsx(styles.footer_header_contacts_item_icon)} />
-                <div className={clsx(styles.footer_header_contacts_item_title)}>28-19-36</div>
+                <div className={clsx(styles.footer_header_contacts_item_title)}>0984070523</div>
               </div>
             </div>
             <div className={clsx(styles.footer_header_contacts_item)}>
