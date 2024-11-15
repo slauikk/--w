@@ -9,7 +9,7 @@ interface IMethodicalRecommendations {}
 
 export const MethodicalRecommendations: FC<IMethodicalRecommendations> = () => {
   return (
-    <PageLayout title="Методичні вказівки до виконання ДП">
+    <PageLayout title="Методичні вказівки до виконання кваліфікаційної роботи">
       {dataContent.map((e, i) => (
         <PageItem {...e} key={i} />
       ))}

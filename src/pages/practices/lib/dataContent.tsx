@@ -21,21 +21,27 @@ export const dataContent = [
         </p>
         <ul>
           <li>
-            <p>
-              <a href="https://eguru.tk.te.ua/enrol/index.php?id=601">
-                Технологічна практика
-              </a>
-              ;
-            </p>
+              <p>
+                  <a href="https://eguru1.tk.te.ua/course/view.php?id=1085">
+                      Переддипломна практика
+                  </a>
+              </p>
           </li>
-          <li>
-            <p>
-              <a href="https://eguru.tk.te.ua/course/view.php?id=518">
-                Переддипломна практика
-              </a>
-              .
-            </p>
-          </li>
+            <li>
+                <p>
+                    <a href="https://eguru1.tk.te.ua/enrol/index.php?id=245">
+                        Технологічна практика
+                    </a>
+                </p>
+            </li>
+
+            <li>
+                <p>
+                    <a href="https://eguru1.tk.te.ua/course/view.php?id=1309">
+                        Навчальна практика
+                    </a>
+                </p>
+            </li>
         </ul>
       </>
     ),

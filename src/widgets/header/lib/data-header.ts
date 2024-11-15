@@ -53,11 +53,11 @@ export const dataHeader = [
         path: "/syllabuses",
       },
       {
-        title: "Методичні рекомендації до КР",
+        title: "Методичні рекомендації до виконання курсових проектів та робіт",
         path: "/methodological-recommendations-for-KP",
       },
       {
-        title: "Методичні вказівки до виконання ДП",
+        title: "Методичні вказівки до виконання кваліфікаційної роботи ",
         path: "/methodical-recommendations-for-qualifications-work",
       },
       {

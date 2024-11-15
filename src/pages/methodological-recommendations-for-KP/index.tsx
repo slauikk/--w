@@ -9,7 +9,7 @@ interface IMethodologicalKP {}
 
 export const MethodologicalKP: FC<IMethodologicalKP> = () => {
   return (
-    <PageLayout title="Методичні рекомендації до КР">
+    <PageLayout title="Методичні рекомендації до виконання курсових проектів та робіт">
       {dataContent.map((e, i) => (
         <PageItem {...e} key={i} />
       ))}
