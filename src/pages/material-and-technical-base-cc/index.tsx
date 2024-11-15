@@ -4,6 +4,10 @@ import styles from "./index.module.scss";
 import { PageLayout } from "../../layouts";
 import { PageItem } from "../../components/page-item";
 import { dataContent } from "./lib/dataContent";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+
 
 interface IMaterialBase {}
 
