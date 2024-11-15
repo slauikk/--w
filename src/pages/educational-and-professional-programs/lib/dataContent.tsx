@@ -19,17 +19,4 @@ export const dataContent = [
       </p>
     ),
   },
-  {
-    content: (
-      <>
-        <p>Режим доступу:</p>
-        <a
-          href="https://tk.te.ua/wp-content/uploads/2022/10/%D0%9E%D0%9F%D0%9F_%D0%A4%D0%9C%D0%91_131_%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D1%96%D0%BA%D0%B0_2022.pdf.
-"
-        >
-          https://tk.te.ua/wp-content/uploads/2022/10/%D0%9E%D0%9F%D0%9F_%D0%A4%D0%9C%D0%91_131_%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D1%96%D0%BA%D0%B0_2022.pdf.
-        </a>
-      </>
-    ),
-  },
 ];
